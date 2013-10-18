@@ -10,6 +10,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.ContextMenu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -63,6 +64,10 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
 
         final ListView listview = (ListView) findViewById(R.id.listView);
         final MyActivity mainView = this;
+
+
+        registerForContextMenu(listview);
+
 
         listview.setAdapter(adapter);
 
@@ -145,6 +150,37 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
 
         // show it
         alertDialog.show();
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v,
+                                    ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.listpopupmenu, menu);
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+        Entry entry = dataList.get((int)info.id);
+
+        switch (item.getItemId()) {
+            case R.id.menu_webside:
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://preso.kantega.no/play/?" + entry.getId()));
+                startActivity(i);
+                return true;
+            case R.id.menu_detaljer:
+                Intent i2 = new Intent(this, DetailActivity.class);
+                i2.putExtra("entry_id", entry.getId());
+                i2.putExtra("entry_title", entry.getTitle());
+                i2.putExtra("entry_desc", entry.getSummary());
+                i2.putExtra("entry", entry);
+                startActivity(i2);
+                return true;
+            default:
+                return super.onContextItemSelected(item);
+        }
     }
 
 }

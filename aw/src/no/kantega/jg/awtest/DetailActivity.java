@@ -2,8 +2,12 @@ package no.kantega.jg.awtest;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.widget.*;
+import no.kantega.jg.awtest.domain.Comment;
 import no.kantega.jg.awtest.domain.Entry;
+import no.kantega.jg.awtest.tasks.LoadCommentsData;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,21 +17,44 @@ import no.kantega.jg.awtest.domain.Entry;
  */
 public class DetailActivity extends Activity {
 
+    private Entry toShow;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detailpage);
 
-        TextView titleView = (TextView)findViewById(R.id.detail_title);
-        TextView descView = (TextView)findViewById(R.id.detail_desc);
-
-        Entry entry = null;
         if( getIntent() != null ) {
-            entry = (Entry) getIntent().getSerializableExtra("entry");
+            toShow = (Entry) getIntent().getSerializableExtra("entry");
         }
 
-        if( entry != null ) {
-            titleView.setText(entry.getId());
-            descView.setText(entry.getSummary());
+        if( toShow != null ) {
+            loadComments(toShow.getId());
         }
     }
+
+
+    private void loadComments(String id) {
+
+      //  findViewById(R.id.detail_progress).setVisibility(View.VISIBLE);
+
+        new LoadCommentsData(this).execute(id);
+    }
+
+    public void listDataFinished(List<Comment> comments) {
+        final ArrayAdapter adapter = new DetailListAdapter(this, comments);
+
+        final ListView listview = (ListView) findViewById(R.id.detailListView);
+
+        listview.setAdapter(adapter);
+
+        TextView titleView = (TextView)findViewById(R.id.detail_title);
+        TextView descView = (TextView)findViewById(R.id.detail_desc);
+        titleView.setText(toShow.getId());
+        descView.setText(toShow.getSummary());
+
+     //  findViewById(R.id.detail_progress).setVisibility(View.GONE);
+
+    }
+
+
 }

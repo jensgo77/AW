@@ -7,7 +7,6 @@ import org.json.JSONObject;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -15,7 +14,6 @@ import java.util.List;
  * User: jenork
  * Date: 16.10.13
  * Time: 12:49
- * To change this template use File | Settings | File Templates.
  */
 public class Entry implements Serializable {
 

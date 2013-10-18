@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ProgressBar style="@android:style/Widget.ProgressBar.Large"
+                 android:id="@+id/detail_progress"
+                 android:layout_width="wrap_content"
+                 android:layout_height="fill_parent"
+                 android:layout_gravity="center"
+                 android:visibility="gone" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/detail_title" android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="Beskrivelse"
+            android:id="@+id/detail_desc_lable" android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="84dp"
+            android:text="Descriptoin"
+            android:id="@+id/detail_desc" android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="Kommenter"
+            android:id="@+id/textView" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Author"
+            android:id="@+id/detail_editAuthor" android:layout_gravity="center" android:editable="true"
+            android:enabled="true"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="92dp"
+            android:text="New EditText"
+            android:id="@+id/detail_editComment" android:layout_gravity="center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/detail_sendComment" android:layout_gravity="center"/>
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/detailListView" android:layout_gravity="center"/>
+</LinearLayout>
