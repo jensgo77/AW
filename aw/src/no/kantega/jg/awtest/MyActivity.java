@@ -9,6 +9,9 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
 import no.kantega.jg.awtest.domain.Entry;
@@ -17,12 +20,13 @@ import no.kantega.jg.awtest.tasks.LoadListData;
 import java.util.List;
 
 
-public class MyActivity extends Activity {
+public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickListener{
     /**
      * Called when the activity is first created.
      */
 
     private List<Entry> dataList;
+    private Entry selectedItem;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -58,6 +62,7 @@ public class MyActivity extends Activity {
         final ArrayAdapter adapter = new ListAdapter(this, dataList);
 
         final ListView listview = (ListView) findViewById(R.id.listView);
+        final MyActivity mainView = this;
 
         listview.setAdapter(adapter);
 
@@ -66,18 +71,48 @@ public class MyActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, final View view,
                                     int position, long id) {
-                final Entry item = (Entry) parent.getItemAtPosition(position);
-
+                Entry item = (Entry) parent.getItemAtPosition(position);
+                selectedItem = item;
                 Toast.makeText(parent.getContext(), item.toString(), 2000).show();
 
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://preso.kantega.no/play/?" + item.getId()));
-                startActivity(i);
+                // menu?
+                PopupMenu popup = new PopupMenu(parent.getContext(), view);
+
+                MenuInflater inflater = popup.getMenuInflater();
+                popup.setOnMenuItemClickListener(mainView);
+                inflater.inflate(R.menu.listpopupmenu, popup.getMenu());
+                popup.show();
+
+
             }
         });
 
-
-
         findViewById(R.id.progress).setVisibility(View.GONE);
+    }
+
+    @Override
+    public boolean onMenuItemClick(MenuItem menuItem) {
+
+        switch( menuItem.getItemId()  ) {
+            case R.id.menu_webside:
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://preso.kantega.no/play/?" + selectedItem.getId()));
+                startActivity(i);
+                break;
+
+            case R.id.menu_detaljer:
+                Intent i2 = new Intent(this, DetailActivity.class);
+                i2.putExtra("entry_id", selectedItem.getId());
+                i2.putExtra("entry_title", selectedItem.getTitle());
+                i2.putExtra("entry_desc", selectedItem.getSummary());
+                i2.putExtra("entry", selectedItem);
+                startActivity(i2);
+                break;
+
+            default:
+                Log.e("testApp", "Missing implementation for: " + menuItem.getTitle());
+                return false;
+        }
+        return true;
     }
 
     public void errorBox(String s) {

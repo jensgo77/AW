@@ -5,6 +5,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -16,7 +17,7 @@ import java.util.List;
  * Time: 12:49
  * To change this template use File | Settings | File Templates.
  */
-public class Entry {
+public class Entry implements Serializable {
 
     String id;
     String summary;

@@ -24,27 +24,38 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec74a93-84d2-4353-84ca-4600171ef4b5" name="Default" comment="" />
+    <list default="true" id="6ec74a93-84d2-4353-84ca-4600171ef4b5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/listpopupmenu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Entry.java" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Entry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Link.java" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Link.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="aw.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MyActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382015128165" ignored="false" />
+    <file path="/MyActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382096194150" ignored="false" />
     <file path="$PROJECT_DIR$/../preso-workshop/res/layout/main.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381919372056" ignored="false" />
     <file path="$PROJECT_DIR$/../preso-workshop/res/values/strings.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381919372056" ignored="false" />
     <file path="$PROJECT_DIR$/../preso-workshop/pom.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381919372056" ignored="false" />
     <file path="$PROJECT_DIR$/../preso-workshop/AndroidManifest.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381919372056" ignored="false" />
-    <file path="/Entry.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381921532212" ignored="false" />
-    <file path="/Link.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381921353420" ignored="false" />
+    <file path="/Entry.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382096141360" ignored="false" />
+    <file path="/Link.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382096156328" ignored="false" />
     <file path="/fragment.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381922644291" ignored="false" />
     <file path="/LoadListData.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382012058130" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382018208462" ignored="false" />
     <file path="/ListAdapter.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382007597237" ignored="false" />
-    <file path="/a.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381999692144" ignored="false" />
+    <file path="/a.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382085869395" ignored="false" />
     <file path="/listitem.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382007359861" ignored="false" />
     <file path="C:/np/oppdatering.mellomlager/src/main/java/no/norskpensjon/eai/pensjonsinnretning/impl/PensjonskundeTjenesteV20FacadeImpl.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382004433444" ignored="false" />
     <file path="/PensjonskundeTjenesteV20FacadeImpl.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382004427776" ignored="false" />
     <file path="/main.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382011766701" ignored="false" />
     <file path="/strings.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382011475656" ignored="false" />
-    <file path="/Dummy.txt" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382084101676" ignored="false" />
+    <file path="/Dummy.txt" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382091650864" ignored="false" />
+    <file path="/listpopupmenu.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382086122850" ignored="false" />
+    <file path="/DetailActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382096269013" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,39 +70,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" line="70" class="no.kantega.jg.awtest.MyActivity$1" package="no.kantega.jg.awtest">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" line="49" class="no.kantega.jg.awtest.MyActivity" package="no.kantega.jg.awtest">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -128,6 +106,39 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" line="97" class="no.kantega.jg.awtest.MyActivity" package="no.kantega.jg.awtest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java" line="16" class="no.kantega.jg.awtest.DetailActivity" package="no.kantega.jg.awtest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -137,13 +148,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="34" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.04047619">
+            <state line="106" column="51" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;field#dataList#0;class#MyActivity#0" expanded="false" />
+                <element signature="e#1955#2704#0" expanded="true" />
+                <element signature="e#2693#2694#0" expanded="true" />
+                <element signature="method#errorBox#0;class#MyActivity#0" expanded="false" />
+                <element signature="e#4210#4245#0" expanded="false" />
+                <element signature="e#4549#4589#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="47" selection-start="853" selection-end="853" vertical-scroll-proportion="0.66520786">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,7 +199,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/no/kantega/jg/awtest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -184,24 +209,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Link.java" />
-        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Entry.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/ListAdapter/java.java" />
         <option value="$PROJECT_DIR$/res/layout/listitem.xml" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/ListAdapter.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadListData.java" />
-        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" />
         <option value="$PROJECT_DIR$/res/drawable-mdpi/notification.png.xml" />
+        <option value="$PROJECT_DIR$/res/menu/listpopupmenu.xml" />
+        <option value="$PROJECT_DIR$/res/layout/Detailpage.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Entry.java" />
+        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Link.java" />
+        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="124" />
-    <option name="width" value="1250" />
-    <option name="height" value="831" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1608" />
+    <option name="height" value="864" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -327,8 +356,22 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,38 +393,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-mdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -392,7 +403,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -401,8 +412,13 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://confluence.kantega.no/display/TEKNO/Mobil-topping+-+workshop" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.aw">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -437,6 +453,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -463,19 +492,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -589,37 +605,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="0" width="1250" height="831" extended-state="0" />
+    <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.67270195" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.67270195" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30364963" sideWeight="0.49963585" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42200556" sideWeight="0.49963585" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31337047" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.49963585" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.49963585" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.49963585" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981792" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28511706" sideWeight="0.670073" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.49916387" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.670073" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21943372" sideWeight="0.67270195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32729805" sideWeight="0.49916387" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.670073" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993445" sideWeight="0.6" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.49963585" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.49963585" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -689,64 +705,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/ListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/sources/android-14/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="630" column="40" selection-start="26856" selection-end="26856" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/sources/android-14/android/view/ViewParent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="914" selection-end="914" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/sources/android-14/android/view/ViewManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="872" selection-end="872" vertical-scroll-proportion="0.2735632" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/sources/android-14/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="76" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/sources/android-14/android/widget/AdapterView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="63" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/sources/android-14/android/view/LayoutInflater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="391" column="16" selection-start="15386" selection-end="15386" vertical-scroll-proportion="0.6073903" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/listitem.xml">
-      <provider editor-type-id="text-editor">
-        <state line="24" column="52" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-15.32">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="953" selection-end="953" vertical-scroll-proportion="0.03926097">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Android/android-sdk/platforms/android-14/data/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="356" column="17" selection-start="16453" selection-end="16453" vertical-scroll-proportion="0.33256352" />
@@ -773,9 +731,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="https://confluence.kantega.no/display/TEKNO/Mobil-topping+-+workshop">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/listpopupmenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="39" selection-start="266" selection-end="266" vertical-scroll-proportion="0.15292354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/widget/PopupMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="11" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="476" selection-end="476" vertical-scroll-proportion="-6.12">
+        <state line="10" column="46" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -783,17 +765,59 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/os/Parcelable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="17" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-0.8949672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3775" column="28" selection-start="166992" selection-end="166992" vertical-scroll-proportion="0.5557987">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/os/Bundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1046" column="18" selection-start="31434" selection-end="31434" vertical-scroll-proportion="0.33260393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="323" selection-end="323" vertical-scroll-proportion="0.33260393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="514" selection-end="514" vertical-scroll-proportion="0.5557987">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="34" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.04047619">
+        <state line="106" column="51" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;field#dataList#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#1955#2704#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="method#errorBox#0;class#MyActivity#0" expanded="false" />
+            <element signature="e#4210#4245#0" expanded="false" />
+            <element signature="e#4549#4589#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="47" selection-start="853" selection-end="853" vertical-scroll-proportion="0.66520786">
+          <folding />
         </state>
       </provider>
     </entry>

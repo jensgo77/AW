@@ -3,6 +3,8 @@ package no.kantega.jg.awtest.domain;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.Serializable;
+
 /**
  * Created with IntelliJ IDEA.
  * User: jenork
@@ -10,7 +12,7 @@ import org.json.JSONObject;
  * Time: 12:52
  * To change this template use File | Settings | File Templates.
  */
-public class Link {
+public class Link implements Serializable {
     String rel;
     String href;
 
