@@ -16,22 +16,36 @@ import java.util.List;
 public class LoadListData extends AsyncTask<String, Integer, List<Entry>> {
     MyActivity parent;
 
+    static List<Entry> globalData = null;
+    static final Integer lock = new Integer(0);
+
     public LoadListData(MyActivity a) {
         parent = a;
     }
     protected List<Entry> doInBackground(String... noparam) {
 
-        try {
-            return readAll();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        } catch( Exception e) {
-            e.printStackTrace();
-        }
+        return doWork();
+    }
 
-        return new ArrayList<Entry>();
+    static public List<Entry> doWork() {
+
+        List<Entry> toReturn = null;
+        synchronized (lock) {
+            if( globalData == null ) {
+                try {
+                    globalData = toReturn = readAll();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (URISyntaxException e) {
+                    e.printStackTrace();
+                } catch( Exception e) {
+                    e.printStackTrace();
+                }
+            } else {
+                toReturn = globalData;
+            }
+        }
+        return toReturn != null ? toReturn : new ArrayList<Entry>();
     }
 
     protected void onProgressUpdate(Integer... progress) {
@@ -42,7 +56,7 @@ public class LoadListData extends AsyncTask<String, Integer, List<Entry>> {
         parent.listDataFinished(list);
     }
 
-    private List<Entry> readAll() throws URISyntaxException, IOException, JSONException {
+    static private List<Entry> readAll() throws URISyntaxException, IOException, JSONException {
 
         String jsonResponse = LoadJsonString.readHttpString("http://preso.kantega.no/feed.json");
         List<Entry>  l = new ArrayList<Entry>();
@@ -56,6 +70,7 @@ public class LoadListData extends AsyncTask<String, Integer, List<Entry>> {
                 Entry e = new Entry(preso);
                 l.add(e);
 
+                //LoadCommentsData.readAll(e.getId());
 
             }
 

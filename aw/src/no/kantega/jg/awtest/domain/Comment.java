@@ -17,11 +17,21 @@ public class Comment implements Serializable {
     String author;
     String text;
     String videoTime;
+    String systemTime;
 
     public Comment(JSONObject json) throws JSONException {
         author = json.getString("author");
         text = json.getString("text");
         videoTime = json.getString("videoTime");
+        systemTime = json.getString("systemTime");
+    }
+
+    public Comment(String author, String text, String time) {
+        this.author = author;
+        this.text = text;
+        this.videoTime = "0";
+        this.systemTime = Long.toString(System.currentTimeMillis());
+
     }
 
     public String getAuthor() {

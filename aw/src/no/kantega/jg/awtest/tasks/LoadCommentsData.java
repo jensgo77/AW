@@ -26,10 +26,17 @@ public class LoadCommentsData extends AsyncTask<String, Integer, List<Comment>> 
         this.parent = parent;
     }
 
+    @Override
+    protected void onPreExecute() {
+
+    }
+
+    @Override
     protected void onProgressUpdate(Integer... progress) {
 
     }
 
+    @Override
     protected void onPostExecute(List<Comment> list) {
         parent.listDataFinished(list);
     }
@@ -49,7 +56,7 @@ public class LoadCommentsData extends AsyncTask<String, Integer, List<Comment>> 
         return new ArrayList<Comment>();
     }
 
-    private List<Comment> readAll(String id) throws URISyntaxException, IOException, JSONException {
+    public static List<Comment> readAll(String id) throws URISyntaxException, IOException, JSONException {
         String jsonResponse = LoadJsonString.readHttpString("http://preso.kantega.no/play/comments?name=" + id);
         List<Comment>  l = new ArrayList<Comment>();
 

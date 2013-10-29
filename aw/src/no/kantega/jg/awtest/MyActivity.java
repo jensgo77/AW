@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
@@ -21,13 +22,16 @@ import no.kantega.jg.awtest.tasks.LoadListData;
 import java.util.List;
 
 
-public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickListener{
+public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickListener {
     /**
      * Called when the activity is first created.
      */
 
+    public static final String PREFS_NAME = "no.kantega.jg.awtest.savedprops";
+
     private List<Entry> dataList;
     private Entry selectedItem;
+    private String lastView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,16 +46,18 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
         } catch( Exception e) {
             isOnline = false;
         }
+        // Restore preferences
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        lastView = settings.getString("lastview", "");
 
         if( !isOnline) {
             errorBox("No network!");
+        } else {
+            loadListData();
         }
-
-        loadListData();
     }
 
     private void loadListData() {
-
         findViewById(R.id.progress).setVisibility(View.VISIBLE);
         new LoadListData(this).execute("");
     }
@@ -93,6 +99,20 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
         });
 
         findViewById(R.id.progress).setVisibility(View.GONE);
+
+        if( lastView != null ) {
+            Entry lastViewEntry = null;
+            for(Entry e : list) {
+                if( e.getId().equals(lastView)) {
+                    lastViewEntry = e;
+                    break;
+                }
+            }
+            if( lastViewEntry != null ) {
+                selectedItem = lastViewEntry;
+                startDetailView();
+            }
+        }
     }
 
     @Override
@@ -105,12 +125,7 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
                 break;
 
             case R.id.menu_detaljer:
-                Intent i2 = new Intent(this, DetailActivity.class);
-                i2.putExtra("entry_id", selectedItem.getId());
-                i2.putExtra("entry_title", selectedItem.getTitle());
-                i2.putExtra("entry_desc", selectedItem.getSummary());
-                i2.putExtra("entry", selectedItem);
-                startActivity(i2);
+                startDetailView();
                 break;
 
             default:
@@ -118,6 +133,15 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
                 return false;
         }
         return true;
+    }
+
+    private void startDetailView() {
+        Intent i2 = new Intent(this, DetailActivity.class);
+        i2.putExtra("entry_id", selectedItem.getId());
+        i2.putExtra("entry_title", selectedItem.getTitle());
+        i2.putExtra("entry_desc", selectedItem.getSummary());
+        i2.putExtra("entry", selectedItem);
+        startActivity(i2);
     }
 
     public void errorBox(String s) {
