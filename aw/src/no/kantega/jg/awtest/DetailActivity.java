@@ -1,5 +1,6 @@
 package no.kantega.jg.awtest;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -10,13 +11,13 @@ import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.support.v4.view.GestureDetectorCompat;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
-import android.view.View;
+import android.view.*;
 import android.widget.*;
 import no.kantega.jg.awtest.domain.Comment;
 import no.kantega.jg.awtest.domain.Entry;
+import no.kantega.jg.awtest.service.PresoService;
 import no.kantega.jg.awtest.tasks.LoadCommentsData;
 import no.kantega.jg.awtest.tasks.LoadListData;
 import no.kantega.jg.awtest.tasks.PutComment;
@@ -29,10 +30,19 @@ import java.util.List;
  * Date: 18.10.13
  * Time: 12:25
  */
-public class DetailActivity extends Activity implements View.OnClickListener {
+public class DetailActivity extends ActionBarActivity implements View.OnClickListener {
 
     private Entry toShow;
     private GestureDetectorCompat mDetector;
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu items for use in the action bar
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.actionbar_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +61,10 @@ public class DetailActivity extends Activity implements View.OnClickListener {
         mDetector = new GestureDetectorCompat(this, new MyGestureListener());
         // Set the gesture detector as the double tap
         // listener.
+
+        Intent i = new Intent(this, PresoService.class);
+        startService(i);
+
     }
 
 
@@ -59,6 +73,13 @@ public class DetailActivity extends Activity implements View.OnClickListener {
       //  findViewById(R.id.detail_progress).setVisibility(View.VISIBLE);
 
         new LoadCommentsData(this).execute(id);
+
+    }
+
+
+    public void httpPageData(String httpPage) {
+
+
     }
 
     public void listDataFinished(List<Comment> comments) {

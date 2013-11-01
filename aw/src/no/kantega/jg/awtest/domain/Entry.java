@@ -39,6 +39,10 @@ public class Entry implements Serializable {
         }
     }
 
+    public Entry() {
+
+    }
+
     public String getId() {
         return id;
     }

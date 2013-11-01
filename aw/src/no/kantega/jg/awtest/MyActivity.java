@@ -2,21 +2,18 @@ package no.kantega.jg.awtest;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
+import android.content.*;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.BatteryManager;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.ContextMenu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
+import android.view.*;
 import android.widget.*;
 import no.kantega.jg.awtest.domain.Entry;
+import no.kantega.jg.awtest.service.PresoService;
+import no.kantega.jg.awtest.tasks.LoadHttpsPage;
 import no.kantega.jg.awtest.tasks.LoadListData;
 
 import java.util.List;
@@ -33,16 +30,27 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
     private Entry selectedItem;
     private String lastView;
 
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu items for use in the action bar
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.actionbar_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
         boolean isOnline = false;
+        boolean isMobile = false;
         try {
             ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
             NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
             isOnline = (networkInfo != null) && networkInfo.isConnected();
+            isMobile = ConnectivityManager.TYPE_WIFI != networkInfo.getType();
         } catch( Exception e) {
             isOnline = false;
         }
@@ -50,16 +58,38 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         lastView = settings.getString("lastview", "");
 
-        if( !isOnline) {
+        if( isMobile ) {
             errorBox("No network!");
         } else {
             loadListData();
         }
+
+
+        Intent i = new Intent(this, PresoService.class);
+        startService(i);
+
+
     }
 
     private void loadListData() {
         findViewById(R.id.progress).setVisibility(View.VISIBLE);
         new LoadListData(this).execute("");
+
+        IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+        Intent batteryStatus = getApplicationContext().registerReceiver(null, ifilter);
+
+        int status = batteryStatus.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1);
+        if( status == BatteryManager.BATTERY_PLUGGED_AC || status == BatteryManager.BATTERY_PLUGGED_USB) {
+
+            new LoadHttpsPage(this).execute("https://testlink.kantega.no/index.php");
+
+        } else {
+            Toast.makeText(this, "Unplugged!!!!", 3000).show();
+        }
+    }
+
+
+    public void httpPageData(String httpPage) {
     }
 
     public void listDataFinished(List<Entry> list) {

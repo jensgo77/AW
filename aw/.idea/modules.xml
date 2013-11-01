@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml" filepath="C:/Android/android-sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml" />
       <module fileurl="file://$PROJECT_DIR$/aw.iml" filepath="$PROJECT_DIR$/aw.iml" />
     </modules>
   </component>
