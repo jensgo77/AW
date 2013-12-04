@@ -1,7 +1,5 @@
 package no.kantega.jg.awtest;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -40,9 +38,25 @@ public class DetailActivity extends ActionBarActivity implements View.OnClickLis
         // Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.actionbar_menu, menu);
+
         return super.onCreateOptionsMenu(menu);
     }
 
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.actionbar_search:
+                Toast.makeText(this, "Search action started! DetailActivity!!", 3000).show();
+                return true;
+            case R.id.actionbar_settings:
+                Toast.makeText(this, "Settings action started! DetailActivity!!", 3000).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -97,7 +111,6 @@ public class DetailActivity extends ActionBarActivity implements View.OnClickLis
         if( ! comments.isEmpty() ) {
             addNotification();
         }
-
     }
 
     private void addNotification() {
@@ -106,18 +119,18 @@ public class DetailActivity extends ActionBarActivity implements View.OnClickLis
                         .setSmallIcon(R.drawable.notify)
                         .setContentTitle("Preso")
                         .setContentText(toShow.getTitle());
-// Creates an explicit intent for an Activity in your app
+        // Creates an explicit intent for an Activity in your app
         Intent resultIntent = new Intent(this, DetailActivity.class);
         resultIntent.putExtra("entry", this.toShow);
 
-// The stack builder object will contain an artificial back stack for the
-// started Activity.
-// This ensures that navigating backward from the Activity leads out of
-// your application to the Home screen.
+        // The stack builder object will contain an artificial back stack for the
+        // started Activity.
+        // This ensures that navigating backward from the Activity leads out of
+        // your application to the Home screen.
         TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
-// Adds the back stack for the Intent (but not the Intent itself)
+        // Adds the back stack for the Intent (but not the Intent itself)
         stackBuilder.addParentStack(DetailActivity.class);
-// Adds the Intent that starts the Activity to the top of the stack
+        // Adds the Intent that starts the Activity to the top of the stack
         stackBuilder.addNextIntent(resultIntent);
         PendingIntent resultPendingIntent =
                 stackBuilder.getPendingIntent(
@@ -127,7 +140,7 @@ public class DetailActivity extends ActionBarActivity implements View.OnClickLis
         mBuilder.setContentIntent(resultPendingIntent);
         NotificationManager mNotificationManager =
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-// mId allows you to update the notification later on.
+        // mId allows you to update the notification later on.
         mNotificationManager.notify(1, mBuilder.build());
     }
 

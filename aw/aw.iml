@@ -16,6 +16,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="android-support-v7-appcompat" />
+    <orderEntry type="module" module-name="google-play-services_lib" />
   </component>
 </module>
 

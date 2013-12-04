@@ -5,6 +5,7 @@
       <profile>
         <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
+        <option name="localeLanguage" value="en" />
         <option name="targetHashString" value="android-14" />
         <option name="theme" value="Theme" />
       </profile>
@@ -28,33 +29,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec74a93-84d2-4353-84ca-4600171ef4b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/ic_action_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/EntryDBHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadHttpsPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/PresoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/ServiceScheduler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/actionbar_menu.xml" />
-      <change type="DELETED" beforePath="C:\git\AW\aw\src\no\kantega\jg\awtest\servic\PresoService.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_action_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_action_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/GPSTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/LyktActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/lykt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Entry.java" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Entry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadHttpsPage.java" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadHttpsPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" afterPath="$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/actionbar_menu.xml" afterPath="$PROJECT_DIR$/res/menu/actionbar_menu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aw.iml" afterPath="$PROJECT_DIR$/aw.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aw.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MyActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383318195065" ignored="false" />
+    <file path="/MyActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383652983441" ignored="false" />
     <file path="$PROJECT_DIR$/../preso-workshop/res/layout/main.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381919372056" ignored="false" />
     <file path="$PROJECT_DIR$/../preso-workshop/res/values/strings.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381919372056" ignored="false" />
     <file path="$PROJECT_DIR$/../preso-workshop/pom.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381919372056" ignored="false" />
     <file path="$PROJECT_DIR$/../preso-workshop/AndroidManifest.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1381919372056" ignored="false" />
     <file path="/Entry.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383139266436" ignored="false" />
     <file path="/Link.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382096156328" ignored="false" />
-    <file path="/fragment.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383217634648" ignored="false" />
+    <file path="/fragment.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385382498651" ignored="false" />
     <file path="/LoadListData.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383062073018" ignored="false" />
     <file path="/ListAdapter.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382007597237" ignored="false" />
     <file path="/a.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383058372594" ignored="false" />
@@ -63,9 +62,9 @@
     <file path="/PensjonskundeTjenesteV20FacadeImpl.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382004427776" ignored="false" />
     <file path="/main.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382011766701" ignored="false" />
     <file path="/strings.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383317636700" ignored="false" />
-    <file path="/Dummy.txt" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383306202403" ignored="false" />
+    <file path="/Dummy.txt" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384873638067" ignored="false" />
     <file path="/listpopupmenu.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382086122850" ignored="false" />
-    <file path="/DetailActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383307431478" ignored="false" />
+    <file path="/DetailActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383652944198" ignored="false" />
     <file path="/detailitem.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382097227428" ignored="false" />
     <file path="/LoadCommentsData.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382449156782" ignored="false" />
     <file path="/Comment.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382449379607" ignored="false" />
@@ -74,16 +73,104 @@
     <file path="/detailpage.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382105695563" ignored="false" />
     <file path="/PresoService.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383207644550" ignored="false" />
     <file path="/PutComment.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382450862853" ignored="false" />
-    <file path="/a.dummy" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383308296271" ignored="false" />
+    <file path="/a.dummy" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385470208225" ignored="false" />
     <file path="/log4j.properties" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382618564287" ignored="false" />
     <file path="C:/np/oppdatering.mellomlager/src/test/resources/log4j.properties" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382618564287" ignored="false" />
     <file path="C:/np/oppdatering.mellomlager/tests.log" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1382622617658" ignored="false" />
     <file path="/a.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383058397573" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383315695589" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384873907401" ignored="false" />
     <file path="/DBOpenHelper.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383146448538" ignored="false" />
     <file path="/EntryDBHelper.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383217851475" ignored="false" />
     <file path="/ServiceScheduler.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383207506137" ignored="false" />
     <file path="/LoadHttpsPage.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383222509738" ignored="false" />
+    <file path="C:/np/ra.ny/src/main/webapp/script/utils.js" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383643930253" ignored="false" />
+    <file path="/actionbar_menu.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383650848486" ignored="false" />
+    <file path="C:/avkastning/pom.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383646650120" ignored="false" />
+    <file path="C:/proj/grib-read/.idea/workspace.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383654185555" ignored="false" />
+    <file path="C:/proj/GRIB-read/pom.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383658790595" ignored="false" />
+    <file path="/pom.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383658392921" ignored="false" />
+    <file path="C:/proj/GRIB-read/src/main/java/no/kantega/jg/testgrib/Start.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383659143662" ignored="false" />
+    <file path="/Start.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383659143341" ignored="false" />
+    <file path="C:/np/ra.ny/src/main/java/no/norskpensjon/ra/web/controller/SsoController.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383823967744" ignored="false" />
+    <file path="C:/nptools/rolp/checkstyle.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383826034755" ignored="false" />
+    <file path="C:/nptools/rolp/pom.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1383826034755" ignored="false" />
+    <file path="C:/np/login/src/main/java/no/norskpensjon/login/LogOutController.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384161616327" ignored="false" />
+    <file path="C:/np/integrasjon/build.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384161794061" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/controllers/Application.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385393417724" ignored="false" />
+    <file path="/Application.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385372270062" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/conf/routes" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385554761088" ignored="false" />
+    <file path="/routes" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385554614108" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/src_managed/main/controllers/routes.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385546681851" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/models/Task.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385044460096" ignored="false" />
+    <file path="/Task.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384505072496" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/views/index.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384443189860" ignored="false" />
+    <file path="/index.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384443178918" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/conf/application.conf" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385392455142" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/models/Rect.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385033736536" ignored="false" />
+    <file path="/LyktActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385127630990" ignored="false" />
+    <file path="C:/Android/android-sdk/extras/google/google_play_services/samples/auth/project.properties" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384941836852" ignored="false" />
+    <file path="C:/Android/android-sdk/extras/google/google_play_services/samples/auth/src/com/google/android/gms/auth/sample/helloauth/AbstractGetNameTask.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385027764713" ignored="false" />
+    <file path="/AbstractGetNameTask.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385027707855" ignored="false" />
+    <file path="C:/Android/android-sdk/extras/google/google_play_services/samples/auth/res/layout/accounts_tester.xml" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1384950144392" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/actions/BasicAuthAction.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385033868610" ignored="false" />
+    <file path="/BasicAuthAction.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385027966411" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/models/OAuth2User.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385483300300" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/actions/BasicAuth.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385033824687" ignored="false" />
+    <file path="/BasicAuth.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385033824687" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/actions/OAuth2.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385033888000" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/actions/OAuth2Action.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385459633097" ignored="false" />
+    <file path="/OAuth2User.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385483260418" ignored="false" />
+    <file path="/OAuth2Action.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385459628945" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/controllers/Tracking.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385047022498" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/models/Position.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385459561761" ignored="false" />
+    <file path="/Position.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385459555571" ignored="false" />
+    <file path="/Tracking.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385046994861" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/src_managed/main/routes_reverseRouting.scala" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385546681851" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/src_managed/main/routes_routing.scala" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385546681851" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/models/User.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385483364542" ignored="false" />
+    <file path="/User.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385459524465" ignored="false" />
+    <file path="C:/Android/android-sdk/extras/google/google_play_services/samples/maps/src/com/example/mapdemo/MarkerDemoActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385116029988" ignored="false" />
+    <file path="C:/Android/android-sdk/extras/google/google_play_services/samples/maps/src/com/example/mapdemo/LocationSourceDemoActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385122242940" ignored="false" />
+    <file path="/LocationSourceDemoActivity.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385122240634" ignored="false" />
+    <file path="/GPSTracker.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385129541465" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/actions/UserOAuth2.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385372162798" ignored="false" />
+    <file path="/UserOAuth2.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385369653678" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/actions/GoogleUserOAuth2.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385369676960" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/actions/GoogleOAuth2Action.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385471324623" ignored="false" />
+    <file path="/GoogleOAuth2Action.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385471289825" ignored="false" />
+    <file path="/application.conf" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385391939020" ignored="false" />
+    <file path="C:/np/login/src/main/java/no/norskpensjon/login/DistributeLogout.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385392010407" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/project/Build.scala" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385393505133" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/conf/evolutions/default/1.sql" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385470578681" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/controllers/MainNavigation.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385547609766" ignored="false" />
+    <file path="/MainNavigation.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385547598071" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/views/boersframe/scala/html.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385460060438" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/views/boersframe.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553010828" ignored="false" />
+    <file path="/boersframe.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553010122" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/models/Forum.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385554314464" ignored="false" />
+    <file path="/Forum.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385554291404" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/controllers/ForumNavigation.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385554589869" ignored="false" />
+    <file path="/ForumNavigation.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385554567947" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/src_managed/main/views/html/boersframe.template.scala" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385546681851" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/models/Follower.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385483919270" ignored="false" />
+    <file path="/Follower.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385483890616" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/views/top_navigation.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385545324205" ignored="false" />
+    <file path="/top_navigation.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385545323680" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/views/forums.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553340691" ignored="false" />
+    <file path="/forums.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385552967167" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/classes_managed/controllers/ReverseForumNavigation.class" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553479273" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/classes_managed/controllers/ReverseAssets.class" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553479273" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/classes_managed/controllers/ReverseTracking.class" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553479273" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/classes_managed/controllers/ReverseApplication.class" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553479273" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/classes_managed/controllers/ReverseMainNavigation.class" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553479273" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/src_managed/main/views/html/forums.template.scala" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385548221815" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/logs/application.log" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385548221815" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/views/forumposts/scala/html.java" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385552755905" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/views/forumposts.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553253675" ignored="false" />
+    <file path="/forumposts.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385552816289" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/app/views/forumedit.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553411386" ignored="false" />
+    <file path="/forumedit.scala.html" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553374985" ignored="false" />
+    <file path="C:/dev/play-2.1.5/testApp/target/scala-2.10/classes_managed/views/html/boersframe.class" changelist="6ec74a93-84d2-4353-84ca-4600171ef4b5" time="1385553479273" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +185,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -166,7 +252,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadHttpsPage.java" line="87" class="no.kantega.jg.awtest.tasks.LoadHttpsPage" package="no.kantega.jg.awtest.tasks">
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadHttpsPage.java" line="80" class="no.kantega.jg.awtest.tasks.LoadHttpsPage" package="no.kantega.jg.awtest.tasks">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -181,7 +267,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" line="180" class="no.kantega.jg.awtest.MyActivity" package="no.kantega.jg.awtest">
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" line="195" class="no.kantega.jg.awtest.MyActivity" package="no.kantega.jg.awtest">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -196,7 +282,97 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java" line="48" class="no.kantega.jg.awtest.DetailActivity" package="no.kantega.jg.awtest">
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" line="44" class="no.kantega.jg.awtest.MyActivity" package="no.kantega.jg.awtest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/LyktActivity.java" line="24" class="no.kantega.jg.awtest.LyktActivity" package="no.kantega.jg.awtest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/LyktActivity.java" line="41" class="no.kantega.jg.awtest.LyktActivity$1" package="no.kantega.jg.awtest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/service/GPSTracker.java" line="43" class="no.kantega.jg.awtest.service.GPSTracker" package="no.kantega.jg.awtest.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/service/GPSTracker.java" line="182" class="no.kantega.jg.awtest.service.GPSTracker" package="no.kantega.jg.awtest.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/service/GPSTracker.java" line="82" class="no.kantega.jg.awtest.service.GPSTracker" package="no.kantega.jg.awtest.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/LyktActivity.java" line="37" class="no.kantega.jg.awtest.LyktActivity$1" package="no.kantega.jg.awtest">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -212,6 +388,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -221,10 +398,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DetailActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java">
+      <file leaf-file-name="LoadHttpsPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadHttpsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="4" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.7289294">
+            <state line="8" column="40" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PutComment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/PutComment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="30" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.79726654">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -232,85 +418,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Android/android-sdk/sources/android-14/android/os/AsyncTask.java">
+      <file leaf-file-name="LyktActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/LyktActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="533" column="0" selection-start="21254" selection-end="21254" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadCommentsData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadCommentsData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
+            <state line="44" column="0" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1567#1576#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#696#1611#0" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="GPSTracker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/service/GPSTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="45" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actionbar_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/actionbar_menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="44" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.72">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ic_launcher.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="42" selection-start="186" selection-end="186" vertical-scroll-proportion="-2.72">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntryDBHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/service/EntryDBHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="161" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Comment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="44" column="9" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-29.92">
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="77" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -321,6 +448,10 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\git\AW\aw\release_keystore.jks" />
+    <option name="KEY_ALIAS" value="awreleasekey" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -333,9 +464,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadCommentsData.java" />
-        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/domain/Comment.java" />
-        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/PutComment.java" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadListData.java" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/servic/PresoService.java" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/DBOpenHelper.java" />
@@ -343,18 +471,21 @@
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/ServiceScheduler.java" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/PresoService.java" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/EntryDBHelper.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/menu/actionbar_menu.xml" />
+        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadHttpsPage.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/menu/actionbar_menu.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java" />
-        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/lykt.xml" />
+        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/service/GPSTracker.java" />
+        <option value="$PROJECT_DIR$/src/no/kantega/jg/awtest/LyktActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="2" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
     <option name="width" value="1608" />
     <option name="height" value="864" />
   </component>
@@ -400,8 +531,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -420,7 +551,147 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="google-play-services_lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-play-services_lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-play-services_lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,7 +709,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,54 +719,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
+              <option name="myItemId" value="appcompat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-ldpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -508,31 +733,34 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="ExportedApkPath" value="C:\git\AW\aw\aw.apk" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="settings.xslt" />
-    <property name="last_opened_file_path" value="C:/Android/android-sdk/extras/android/support/v7/appcompat/.project" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="ExportedModule" value="aw" />
+    <property name="last_opened_file_path" value="C:/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar!/" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="OPEN_URL_DIALOG">
-      <recent name="https://confluence.kantega.no/display/TEKNO/Mobil-topping+-+workshop" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\git\AW\aw\res\drawable-ldpi" />
-      <recent name="C:\git\AW\aw\res\layout" />
       <recent name="C:\git\AW\aw\res\drawable-mdpi" />
       <recent name="C:\git\AW\aw\res\drawable-hdpi" />
+      <recent name="C:\git\AW\aw\res\drawable-ldpi" />
+      <recent name="C:\git\AW\aw\res\layout" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://confluence.kantega.no/display/TEKNO/Mobil-topping+-+workshop" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.aw">
@@ -568,19 +796,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -607,6 +822,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -663,7 +891,7 @@
     </configuration>
     <configuration default="false" name="aw" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="aw" />
-      <option name="ACTIVITY_CLASS" value="no.kantega.jg.awtest.MyActivity" />
+      <option name="ACTIVITY_CLASS" value="no.kantega.jg.awtest.LyktActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
@@ -724,7 +952,11 @@
       <created>1383062755093</created>
       <updated>1383062755093</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updates">
+      <created>1383318497768</created>
+      <updated>1383318497768</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -748,36 +980,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="2" width="1608" height="864" extended-state="0" />
-    <editor active="false" />
+    <frame x="-4" y="-4" width="1608" height="864" extended-state="7" />
+    <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754183" sideWeight="0.70194983" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993445" sideWeight="0.6" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2361111" sideWeight="0.4993565" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983287" sideWeight="0.6924067" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32768363" sideWeight="0.501287" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3231198" sideWeight="0.501287" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259053" sideWeight="0.498713" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4011142" sideWeight="0.72779924" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.7638889" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19111969" sideWeight="0.67688024" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3231198" sideWeight="0.498713" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.67083335" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19111969" sideWeight="0.70194983" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21448468" sideWeight="0.498713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754183" sideWeight="0.70194983" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993445" sideWeight="0.6" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3523677" sideWeight="0.4993565" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29805014" sideWeight="0.6924067" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32451254" sideWeight="0.498713" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983287" sideWeight="0.72779924" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.7638889" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.67083335" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -861,92 +1093,128 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_menu_share_holo_dark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_go_search_api_holo_light.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_go.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_commit_search_api_holo_light.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_commit_search_api_holo_dark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ic_cab_done_holo_dark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/res/drawable-hdpi/abc_menu_dropdown_panel_holo_dark.9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/notify.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/actionbar_menu.xml">
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadJsonString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.72">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="76" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Android/android-sdk/extras/android/support/v7/appcompat/libs/android-support-v4.jar!/android/support/v4/app/FragmentActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="50" selection-start="3928" selection-end="3928" vertical-scroll-proportion="0.35253456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/app/FragmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="22" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.6210046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/app/DialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="27" selection-start="9347" selection-end="9347" vertical-scroll-proportion="0.11111111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="0" selection-start="6150" selection-end="6150" vertical-scroll-proportion="0.66739607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/lykt.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/location/LocationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-0.31589958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/location/LocationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="438" column="47" selection-start="17526" selection-end="17526" vertical-scroll-proportion="0.36820084">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadListData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="15" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.17782427">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadCommentsData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1567#1576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="77" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+        <state line="36" column="111" selection-start="791" selection-end="791" vertical-scroll-proportion="0.70083684">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/DetailActivity.java">
+    <entry file="file://C:/Android/android-sdk/sources/android-14/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="4" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.7289294">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1763005">
+          <folding>
+            <element signature="e#0#192272#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/service/GPSTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="9" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-29.92">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/LyktActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#1611#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/LoadHttpsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="40" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/kantega/jg/awtest/tasks/PutComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="30" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.79726654">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

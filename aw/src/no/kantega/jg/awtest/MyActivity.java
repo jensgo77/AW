@@ -1,6 +1,5 @@
 package no.kantega.jg.awtest;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.*;
 import android.net.ConnectivityManager;
@@ -8,6 +7,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.BatteryManager;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.*;
 import android.widget.*;
@@ -19,7 +19,7 @@ import no.kantega.jg.awtest.tasks.LoadListData;
 import java.util.List;
 
 
-public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickListener {
+public class MyActivity extends ActionBarActivity implements PopupMenu.OnMenuItemClickListener {
     /**
      * Called when the activity is first created.
      */
@@ -37,6 +37,21 @@ public class MyActivity extends Activity implements PopupMenu.OnMenuItemClickLis
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.actionbar_menu, menu);
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.actionbar_search:
+                Toast.makeText(getApplicationContext(), "Search action started! MyActivity!!", 3000).show();
+                return true;
+            case R.id.actionbar_settings:
+                Toast.makeText(getApplicationContext(), "Settings action started! MyActivity!!", 3000).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     @Override

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:focusable="false" android:background="@drawable/abc_ab_bottom_solid_light_holo"
+        android:focusableInTouchMode="true">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Showloc"
+            android:id="@+id/button" android:layout_gravity="center"/>
+</FrameLayout>

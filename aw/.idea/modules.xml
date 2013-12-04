@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://C:/Android/android-sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml" filepath="C:/Android/android-sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml" />
       <module fileurl="file://$PROJECT_DIR$/aw.iml" filepath="$PROJECT_DIR$/aw.iml" />
+      <module fileurl="file://C:/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" filepath="C:/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" />
     </modules>
   </component>
 </project>
